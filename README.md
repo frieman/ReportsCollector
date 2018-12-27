@@ -11,7 +11,7 @@ and manipulate data, store it and a simple API to retrieve it to a clients reque
     POST /collector/report
     ``` 
     example of request body:
-    ```json
+    ```
     {
         data: {
             user_key: 'd8c0a258-e375-4986-bd33-7d46a11a7fd2',
