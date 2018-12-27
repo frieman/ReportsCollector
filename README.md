@@ -5,7 +5,7 @@ and manipulate data, store it and a simple API to retrieve it to a clients reque
 
 
 
-#####The server should be able to do the following:
+##### The server should be able to do the following:
 1. Create the following API for receiving data reports from clients:
     ```
     /collector/reportMe
@@ -20,14 +20,14 @@ and manipulate data, store it and a simple API to retrieve it to a clients reque
 
 
 <br></br>
-#####What we anticipate to see in the  app:
+##### What we anticipate to see in the  app:
 
 2. Use design patterns that allows flexible code structure, showing anticipation for evolution and new features 
 2. Cut corners, but not to the point where the structure vanishes
 2. Conventional coding style
 3. Reasonable comments (where needed)
 
-#####Questions:
+##### Questions:
 1. How you insure data consistency in case of server failures etc.? 
 2. In case this server handles huge amount of events, how would you implement a feature that will need to preform complex aggregations?  
 
