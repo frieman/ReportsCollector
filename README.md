@@ -28,7 +28,7 @@ and manipulate data, store it and a simple API to retrieve it to a clients reque
 3. Reasonable comments (where needed)
 
 ##### Questions:
-1. How you insure data consistency in case of server failures etc.? 
+1. How you can insure data consistency in case of server failures etc.? 
 2. In case this server handles huge amount of events, how would you implement a feature that will need to preform complex aggregations?  
 
 Answer the questions in the Answers.txt file
