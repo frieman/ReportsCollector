@@ -8,7 +8,7 @@ and manipulate data, store it and a simple API to retrieve it to a clients reque
 ##### The server should be able to do the following:
 1. Create the following API for receiving data reports from clients:
     ```
-    /collector/reportMe
+    /collector/report
     ``` 
     *  See reportsClient README to generate client calls
     * The server should return imidiate OK response and continue its work. 

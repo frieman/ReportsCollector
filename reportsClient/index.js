@@ -20,7 +20,7 @@ var config = {
 const server = require('http').createServer(app)
 
 server.listen(port, function () {
-  app.post("/collector/reportMe", function(req,res,next){
+  app.post("/collector/report", function(req,res,next){
     console.log("data received: ", req.body.data)
     res.send("ok")
   })

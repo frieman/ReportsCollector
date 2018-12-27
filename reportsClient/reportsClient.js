@@ -44,7 +44,7 @@ server.listen(port, function () {
             displayed_at: new Date().getTime()
         }
       }
-     axios.post('http://localhost:4000/collector/reportMe', data)
+     axios.post('http://localhost:4000/collector/report', data)
           .then(function (response) {
             console.log('api successfully: ',response.data)
           })
