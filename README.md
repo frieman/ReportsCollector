@@ -19,7 +19,7 @@ and manipulate data, store it and a simple API to retrieve it to a clients reque
     * fromDate < displayed_at < toDate   
 
 
-<br></br>
+
 ##### What we anticipate to see in the  app:
 
 2. Use design patterns that allows flexible code structure, showing anticipation for evolution and new features 
