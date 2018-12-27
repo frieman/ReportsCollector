@@ -10,9 +10,20 @@ and manipulate data, store it and a simple API to retrieve it to a clients reque
     ```
     POST /collector/report
     ``` 
-    *  See reportsClient README to generate client calls
-    * The server should return imidiate OK response and continue its work. 
-     
+    example of request body:
+    ```json
+    {
+        data: {
+            user_key: 'd8c0a258-e375-4986-bd33-7d46a11a7fd2',
+            media_name: 'xepnn.png',
+            duration: '4.07',
+            displayed_at: 1545914232903
+        }
+    }
+    ```
+    * The server should return immediate OK response and continue its work.
+    * The server should be able to handle high traffic.
+    * create a simple Java / CLI client to generate calls
  2. The server should store the data it receives from the clients in order to retrieve it on later stages.
  3. Create an API that returns the data from the DB according to:
     - user_key
