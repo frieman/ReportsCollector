@@ -22,6 +22,7 @@ and manipulate data, store it and a simple API to retrieve it to a clients reque
 
 ##### What we anticipate to see in the  app:
 
+2. Write the server in Java and any SQL DB and you can use any framework you wish (Spring etc.). 
 2. Use design patterns that allows flexible code structure, showing anticipation for evolution and new features 
 2. Cut corners, but not to the point where the structure vanishes
 2. Conventional coding style
