@@ -24,7 +24,7 @@ and manipulate data, store it and a simple API to retrieve it to a clients reque
     * The server should return immediate OK response and continue its work.
     * The server should be able to handle high traffic.
  2. The server should store the data it receives from the clients in order to retrieve it on later stages.
- 3. Create an API that returns the data from the DB according to:
+ 3. Create an API that returns the data from the DB paginated according to:
     - user_key
     * fromDate < displayed_at < toDate   
  4. Simple UI to generate calls and display data
@@ -32,7 +32,7 @@ and manipulate data, store it and a simple API to retrieve it to a clients reque
 ##### What we anticipate to see in the  app:
 
 1. Write the server in Java and any DB and you can use any framework you wish (Spring etc.). 
-2. Unit tests
+2. Write unit tests
 3. Use design patterns that allows flexible code structure, showing anticipation for evolution and new features 
 4. Cut corners, but not to the point where the structure vanishes
 5. Conventional coding style
